@@ -1,4 +1,4 @@
-colors
-======
+color-space
+===========
 
-This module exports a color scheme that I like, based off the Solarized scheme.
+A utility library for dealing with different color spaces
