@@ -1,4 +1,4 @@
 colors
 ======
 
-Racket source for a color scheme
+This module exports a color scheme that I like, based off the Solarized scheme.
