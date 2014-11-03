@@ -10,7 +10,10 @@
 (struct XYZ (x y z) #:transparent)
 (struct LAB (l a b) #:transparent)
 
-(provide RGB RGB-linear XYZ LAB)
+(provide (struct-out RGB)
+         (struct-out RGB-linear)
+         (struct-out XYZ)
+         (struct-out LAB))
 
 (define-provide ->string (lambda (c)
   (format "rgb(~a,~a,~a)" (RGB-r c) (RGB-g c) (RGB-b c))))
